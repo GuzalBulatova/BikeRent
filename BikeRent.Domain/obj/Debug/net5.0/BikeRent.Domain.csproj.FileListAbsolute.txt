@@ -1,0 +1,15 @@
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\BikeRent.Domain.deps.json
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\BikeRent.Domain.runtimeconfig.json
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\BikeRent.Domain.runtimeconfig.dev.json
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\BikeRent.Domain.dll
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\ref\BikeRent.Domain.dll
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\bin\Debug\net5.0\BikeRent.Domain.pdb
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.csprojAssemblyReference.cache
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.AssemblyInfoInputs.cache
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.AssemblyInfo.cs
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.dll
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\ref\BikeRent.Domain.dll
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.pdb
+C:\Dev\DATABASES\BikeRentAPI\BikeRent.Domain\obj\Debug\net5.0\BikeRent.Domain.genruntimeconfig.cache
