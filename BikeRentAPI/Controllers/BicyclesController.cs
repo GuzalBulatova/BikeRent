@@ -19,6 +19,22 @@ namespace BikeRentAPI.Controllers
             _context = context;
         }
 
+        // GET a Rental and Bicycle details by RentalId
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IEnumerable<Rental>>> GetRentalBicycle(int rentalId)
+        {
+            //dbContext.Bicycles.Include(b => b.Brand).Find()
+
+            var bike_rental = _context.Rentals.Include(r => r.Bicycles).ToListAsync();
+
+            if (bike_rental == null)
+            {
+                return NotFound();
+            }
+
+            return await bike_rental;
+        }
+
         // GET all Bicycles
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Bicycle>>> GetBicycles()
@@ -52,13 +68,20 @@ namespace BikeRentAPI.Controllers
 
         // PUT rest method to update a Bicycle
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutBicycle(int id, Bicycle bicycle)
+        public async Task<ActionResult<Bicycle>> PutBicycle(int id, Bicycle bicycle)
         {
+            var bike = await _context.Bicycles.FindAsync(id);
+
             if (id != bicycle.BicycleId)
             {
                 return BadRequest();
             }
+
+            bike.BicycleId = bicycle.BicycleId;
+            bike.BicyclePrice = bicycle.BicyclePrice;
+
             _context.Entry(bicycle).State = EntityState.Modified;
+
             try
             {
                 await _context.SaveChangesAsync();
